@@ -1,0 +1,23 @@
+<RCC>
+  <qresource prefix="src">
+    <file>add.png</file>
+    <file>compare.png</file>
+    <file>config.png</file>
+    <file>delete.png</file>
+    <file>down.png</file>
+    <file>main.ico</file>
+    <file>main.png</file>
+    <file>open.png</file>
+    <file>pause.png</file>
+    <file>restart .png</file>
+    <file>right.png</file>
+    <file>save_icon.png</file>
+    <file>start.png</file>
+    <file>stats.png</file>
+    <file>stop.png</file>
+    <file>subtract.png</file>
+    <file>up.png</file>
+    <file>快进.png</file>
+    <file>快退.png</file>
+  </qresource>
+</RCC>
