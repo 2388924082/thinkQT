@@ -1,0 +1,4 @@
+2024-01-15 00:35:03,917 - logger.py[line:26] - INFO: logging module init is ok
+2024-01-15 00:35:03,968 - window_main.py[line:42] - INFO: window_main初始化完毕
+2024-01-15 00:35:04,298 - Main.py[line:17] - INFO: mainWindow start
+2024-01-15 00:35:06,666 - window_main.py[line:52] - INFO: window_main的action1事件
