@@ -39,6 +39,8 @@ class window_main(QMainWindow):
         # 3.事件绑定
         self.ui.action1.triggered.connect(self.model.update_data)
         self.ui.action1.triggered.connect(self.action1)
+        self.ui.action2.triggered.connect(self.action1)
+        self.ui.action3.triggered.connect(self.action1)
         info("window_main初始化完毕")
 
     # UI逻辑在事件函数里写(JS部分)

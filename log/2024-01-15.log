@@ -1,4 +1,10 @@
-2024-01-15 00:35:03,917 - logger.py[line:26] - INFO: logging module init is ok
-2024-01-15 00:35:03,968 - window_main.py[line:42] - INFO: window_main初始化完毕
-2024-01-15 00:35:04,298 - Main.py[line:17] - INFO: mainWindow start
-2024-01-15 00:35:06,666 - window_main.py[line:52] - INFO: window_main的action1事件
+2024-01-15 21:17:53,349 - logger.py[line:26] - INFO: logging module init is ok
+2024-01-15 21:17:53,406 - window_main.py[line:44] - INFO: window_main初始化完毕
+2024-01-15 21:17:53,742 - Main.py[line:17] - INFO: mainWindow start
+2024-01-15 21:17:56,977 - window_main.py[line:54] - INFO: window_main的action1事件
+2024-01-15 21:17:59,158 - window_main.py[line:54] - INFO: window_main的action1事件
+2024-01-15 21:18:01,690 - model_mainWindow.py[line:11] - INFO: 我是models文件夹下的model对象里的update_data函数
+2024-01-15 21:18:04,152 - window_tool.py[line:52] - INFO: slider_vchanged:1
+2024-01-15 21:18:04,448 - window_tool.py[line:52] - INFO: slider_vchanged:10
+2024-01-15 21:18:04,621 - window_tool.py[line:52] - INFO: slider_vchanged:99
+2024-01-15 21:18:07,789 - model_mainWindow.py[line:11] - INFO: 我是models文件夹下的model对象里的update_data函数

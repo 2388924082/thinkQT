@@ -11,7 +11,7 @@ if __name__ == "__main__":
 else:
     from .ui_tool import Ui_MainWindow
     from .model_tool import model_tool
-
+from models.model_mainWindow import model_mainWindow
 
 class window_tool(QMainWindow):
     # 4.发射信号
@@ -29,11 +29,12 @@ class window_tool(QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
         self.model = model_tool()  # 绑定业务逻辑model
+        self.model2 = model_mainWindow()
 
         # 2.变量绑定
 
         # 3.事件绑定
-        self.ui.Button_reset.clicked.connect(self.model.update_data)  # 按钮事件绑定，可以绑定model里的方法
+        self.ui.Button_reset.clicked.connect(self.model2.update_data)  # 按钮事件绑定，可以绑定model里的方法
         self.ui.Button_reset.clicked.connect(self.update_data)  # 按钮事件绑定
         self.ui.slider_num.valueChanged.connect(self.slider_vchanged)  # 滑块事件绑定
         self.ui.lineEdit_num.textChanged.connect(self.lineEdit_num_changed)  # 文本框事件绑定
